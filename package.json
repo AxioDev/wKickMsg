@@ -1,12 +1,13 @@
 {
-  "name": "wkickmsg",
+  "name": "kick-chat-counter",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "express": "^4.18.2",
+    "kick_live_ws": "^1.0.8"
+  }
 }
